@@ -33,6 +33,12 @@ You want to copy the public key (.pub file)
 $ cat ~/.ssh/id_rsa.pub
 ```
 
+If you name your ssh the other way you can use
+
+```
+ssh-add .ssh/id_rsa_do
+```
+
 Copy the entire output and add as an SSH key for Digital Ocean
 
 ### Login To Your Server
